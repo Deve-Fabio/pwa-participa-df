@@ -1,0 +1,105 @@
+/* mapa.css
+   Estilos exclusivos do modal de seleção de local no mapa
+   Não afeta o restante do sistema
+*/
+
+#dlgMapaLocal {
+  border: none;
+  padding: 0;
+  max-width: 880px;
+  width: calc(100% - 24px);
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+#dlgMapaLocal::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Card interno */
+#dlgMapaLocal .card {
+  padding: 20px;
+  background: #ffffff;
+}
+
+/* Título */
+#dlgMapaLocal h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Texto de ajuda */
+#dlgMapaLocal .help {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Área do mapa */
+#map {
+  width: 100%;
+  height: 380px;
+  margin-top: 12px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Botões */
+#dlgMapaLocal .actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#dlgMapaLocal .btn {
+  min-width: 180px;
+}
+
+/* Status do mapa */
+#mapStatus {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  #map {
+    height: 300px;
+  }
+
+  #dlgMapaLocal {
+    width: calc(100% - 12px);
+  }
+
+  #dlgMapaLocal .btn {
+    width: 100%;
+  }
+}
+/* Label + botão do mapa alinhados */
+.label-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+/* Botão discreto de mapa */
+.btn-mapa {
+  background: transparent;
+  border: none;
+  color: #1b5eaa;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.btn-mapa:hover {
+  background: rgba(27, 94, 170, 0.08);
+  text-decoration: underline;
+}
+
+.btn-mapa:focus {
+  outline: 2px solid #1b5eaa;
+  outline-offset: 2px;
+}
