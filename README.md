@@ -9,8 +9,7 @@ Protótipo funcional desenvolvido para o **1º Hackathon em Controle Social – 
 Repositório da solução desenvolvida para o  
 **1º Hackathon em Controle Social – Desafio Participa DF (Categoria Ouvidoria)**:
 
-👉 https://github.com/SEU_USUARIO/participa-df-ouvidoria-pwa
-
+👉 https://github.com/Deve-Fabio/pwa-participa-df
 ---
 
 ## 📌 Contexto do Desafio
@@ -177,4 +176,5 @@ A triagem automática:
 
 ## 👨 Autoria	
 	Projeto desenvolvido por Francisco Fábio de Oliveira
+
 	para o 1º Hackathon em Controle Social – Desafio Participa DF.
