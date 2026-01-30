@@ -150,7 +150,7 @@ A triagem automática:
 
 
 ## ▶️ Como Executar a Solução
-	Esta solução é um protótipo PWA front-end, não exigindo backend, banco de dados ou instalação de dependências.
+	> Esta solução é um protótipo PWA front-end, não exigindo backend, banco de dados ou instalação de dependências.
 
  *Opção 1 — Execução direta
 	1. Baixe ou clone o repositório.
@@ -166,9 +166,9 @@ A triagem automática:
 	A aplicação será aberta no navegador e estará pronta para uso.
 	
 ## ⚠️ Limitações Conhecidas
-	- Persistência local (LocalStorage) apenas para fins de protótipo
-	- Integração com IZA simulada
-	- Não há backend ou autenticação real
+- Persistência local (LocalStorage) apenas para fins de protótipo
+- Integração com IZA simulada
+- Não há backend ou autenticação real
 
 ## 🎥 Vídeo Demonstrativo
     Vídeo demonstrativo da solução (categoria Ouvidoria):
@@ -178,5 +178,6 @@ A triagem automática:
 	Projeto desenvolvido por Francisco Fábio de Oliveira
 
 	para o 1º Hackathon em Controle Social – Desafio Participa DF.
+
 
 
