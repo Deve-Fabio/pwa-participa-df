@@ -153,7 +153,7 @@ A triagem automática:
 	Esta solução é um protótipo PWA front-end, não exigindo backend, banco de dados ou instalação de dependências.
 
  *Opção 1 — Execução direta
-	1. Baixe ou clone o repositório
+	1. Baixe ou clone o repositório.
 	2. Abra o arquivo index.html diretamente no navegador
 
  *Opção 2 — Servidor local (recomendado)
@@ -178,4 +178,5 @@ A triagem automática:
 	Projeto desenvolvido por Francisco Fábio de Oliveira
 
 	para o 1º Hackathon em Controle Social – Desafio Participa DF.
+
 
